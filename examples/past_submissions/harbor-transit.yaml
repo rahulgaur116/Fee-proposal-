@@ -1,0 +1,35 @@
+name: Harbor Transit Maintenance Facility
+project_type: owners_rep
+sector: transit
+construction_value: 65000000
+duration_months: 36
+fee: 1420000
+won: false
+lines:
+  - deliverable: monthly status report
+    role_code: PM
+    hours: 180
+  - deliverable: monthly status report
+    role_code: PA
+    hours: 252
+  - deliverable: oac meetings
+    role_code: SPM
+    hours: 750
+  - deliverable: pay application review
+    role_code: CM
+    hours: 288
+  - deliverable: change order review
+    role_code: CM
+    hours: 420
+  - deliverable: design review
+    role_code: SPM
+    hours: 200
+  - deliverable: schedule review
+    role_code: SCH
+    hours: 360
+  - deliverable: project closeout
+    role_code: PM
+    hours: 120
+  - deliverable: principal oversight
+    role_code: PIC
+    hours: 144

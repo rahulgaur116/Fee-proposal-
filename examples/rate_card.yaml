@@ -1,0 +1,44 @@
+# Firm rate card. Rates are billing rates; cost_rate is fully loaded cost
+# (salary + burden + overhead allocation) used only for internal margin checks -
+# it never appears in any client-facing output.
+firm: Meridian Program Advisors
+effective_date: "2026-01-01"
+currency: USD
+
+escalation:
+  annual_pct: 4.0        # applied at each contract anniversary (year 2 = base x 1.04)
+  cost_annual_pct: 3.5   # labor cost inflation for margin checks
+
+roles:
+  - code: PIC
+    title: Principal-in-Charge
+    bill_rate: 295
+    cost_rate: 175
+  - code: SPM
+    title: Senior Project Manager
+    bill_rate: 235
+    cost_rate: 140
+  - code: PM
+    title: Project Manager
+    bill_rate: 195
+    cost_rate: 118
+  - code: CM
+    title: Senior Cost Manager
+    bill_rate: 215
+    cost_rate: 128
+  - code: SCH
+    title: Scheduler
+    bill_rate: 185
+    cost_rate: 110
+  - code: PA
+    title: Project Analyst
+    bill_rate: 125
+    cost_rate: 72
+
+policies:
+  margin_floor_pct: 30       # flag any role priced under 30% margin
+  contingency_pct: 5         # estimating contingency on the hours build
+  rounding: 500              # round the total to the nearest $500
+  fee_pct_band:              # sanity band: owner's-rep fee as % of construction value
+    low_pct: 0.8
+    high_pct: 3.5

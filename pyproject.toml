@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feeprop"
+version = "0.1.0"
+description = "Turns a scope of work into a priced, drafted fee proposal: bottom-up hours by role by deliverable, deterministic multi-year pricing, narrative drafted around a locked number, assumptions generated from every gap in the scope."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+dependencies = [
+    "anthropic>=1.0",
+    "pydantic>=2.5",
+    "PyYAML>=6.0",
+    "openpyxl>=3.1",
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+docs = ["pypdf>=4.0", "python-docx>=1.1"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+feeprop = "feeprop.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

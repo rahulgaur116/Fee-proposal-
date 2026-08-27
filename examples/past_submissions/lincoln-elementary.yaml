@@ -1,0 +1,34 @@
+# One record per past submission. This is what `feeprop extract-past` produces
+# from an old proposal document, or what you write by hand from your records.
+name: Lincoln Elementary Modernization
+project_type: owners_rep
+sector: K-12
+construction_value: 22000000
+duration_months: 24
+fee: 512000
+won: true
+lines:
+  - deliverable: monthly status report
+    role_code: PM
+    hours: 96      # total over the engagement
+  - deliverable: monthly status report
+    role_code: PA
+    hours: 144
+  - deliverable: oac meetings
+    role_code: PM
+    hours: 416
+  - deliverable: pay application review
+    role_code: CM
+    hours: 132
+  - deliverable: change order review
+    role_code: CM
+    hours: 180
+  - deliverable: design review
+    role_code: SPM
+    hours: 120
+  - deliverable: project closeout
+    role_code: PM
+    hours: 80
+  - deliverable: principal oversight
+    role_code: PIC
+    hours: 96
