@@ -72,8 +72,10 @@ feeprop estimate -o out/ --rate-card rc.yaml \
     --benchmarks benchmarks.yaml                     # bottom-up hours proposal
 $EDITOR out/estimate.json                            # your judgment goes here
 feeprop price -o out/ --rate-card rc.yaml            # deterministic; locks the number
-feeprop draft -o out/ --rate-card rc.yaml --template template.md
+feeprop draft -o out/ --rate-card rc.yaml --template template.md --docx
 ```
+
+`--docx` (on `draft` and `propose`) also writes `proposal.docx` for submission.
 
 Change the hours after pricing? Re-run `price` — the lock id changes and the
 draft is re-verified against the new number. Edit `fee_model.json` by hand and
@@ -116,6 +118,7 @@ reports median fee-%-of-construction for won vs lost work, which is where the
 | `fee_model.json` | Priced lines, per-year/role/phase totals, flat-vs-escalated comparison, margins, warnings, lock |
 | `fee_workbook.xlsx` | Summary / Detail / Assumptions sheets for principal review |
 | `proposal.md` | The drafted proposal, numbers verified against the lock |
+| `proposal.docx` | Word version of the proposal (with `--docx`) |
 
 ## Tests
 

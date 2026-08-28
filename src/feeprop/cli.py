@@ -32,6 +32,7 @@ ESTIMATE = "estimate.json"
 FEE_MODEL = "fee_model.json"
 WORKBOOK = "fee_workbook.xlsx"
 PROPOSAL = "proposal.md"
+PROPOSAL_DOCX = "proposal.docx"
 
 
 def _out(outdir: str) -> Path:
@@ -121,7 +122,9 @@ def price(outdir: str, rate_card_path: str) -> None:
 @click.option("-o", "--outdir", default="out", show_default=True)
 @click.option("--rate-card", "rate_card_path", required=True, type=click.Path(exists=True))
 @click.option("--template", "template_path", required=True, type=click.Path(exists=True))
-def draft(outdir: str, rate_card_path: str, template_path: str) -> None:
+@click.option("--docx", "docx_flag", is_flag=True, help="Also write proposal.docx")
+def draft(outdir: str, rate_card_path: str, template_path: str,
+          docx_flag: bool = False) -> None:
     """Draft the proposal narrative around the locked fee."""
     out = _out(outdir)
     analysis = _read_json(out / ANALYSIS, ScopeAnalysis)
@@ -134,6 +137,11 @@ def draft(outdir: str, rate_card_path: str, template_path: str) -> None:
     (out / PROPOSAL).write_text(doc, encoding="utf-8")
     _print_warnings(warnings)
     click.echo(f"  -> {out / PROPOSAL}")
+    if docx_flag:
+        from .docx_out import markdown_to_docx
+        docx_path = out / PROPOSAL_DOCX
+        markdown_to_docx(doc, docx_path)
+        click.echo(f"  -> {docx_path}")
 
 
 @main.command()
@@ -142,8 +150,10 @@ def draft(outdir: str, rate_card_path: str, template_path: str) -> None:
 @click.option("--rate-card", "rate_card_path", required=True, type=click.Path(exists=True))
 @click.option("--template", "template_path", required=True, type=click.Path(exists=True))
 @click.option("--benchmarks", "benchmarks_path", type=click.Path(exists=True))
+@click.option("--docx", "docx_flag", is_flag=True, help="Also write proposal.docx")
 def propose(scope_doc: str, outdir: str, rate_card_path: str,
-            template_path: str, benchmarks_path: str | None) -> None:
+            template_path: str, benchmarks_path: str | None,
+            docx_flag: bool = False) -> None:
     """Full pipeline: analyze -> estimate -> price -> draft."""
     ctx = click.get_current_context()
     ctx.invoke(analyze, scope_doc=scope_doc, outdir=outdir)
@@ -151,7 +161,7 @@ def propose(scope_doc: str, outdir: str, rate_card_path: str,
                benchmarks_path=benchmarks_path)
     ctx.invoke(price, outdir=outdir, rate_card_path=rate_card_path)
     ctx.invoke(draft, outdir=outdir, rate_card_path=rate_card_path,
-               template_path=template_path)
+               template_path=template_path, docx_flag=docx_flag)
     click.echo("\nDone. Review order: fee_workbook.xlsx (the number), "
                "then proposal.md (the words).")
 
