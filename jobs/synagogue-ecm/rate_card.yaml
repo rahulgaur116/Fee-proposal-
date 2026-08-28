@@ -27,7 +27,7 @@ roles:
     bill_rate: 190
   - code: CM
     title: Cost Manager
-    bill_rate: 150
+    bill_rate: 160   # per Fee_Buildup_Central_Synagogue (published 2026 schedule says 150 - confirm)
   - code: ACM
     title: Assistant Cost Manager / Estimating Technician
     bill_rate: 110
@@ -35,4 +35,4 @@ roles:
 policies:
   margin_floor_pct: 0      # no cost rates available - margin checks off
   contingency_pct: 0       # services fee, no estimating contingency
-  rounding: 100
+  rounding: 0        # client-approved buildup total is exact; do not round
