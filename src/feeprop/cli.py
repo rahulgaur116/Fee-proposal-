@@ -31,6 +31,7 @@ ANALYSIS = "analysis.json"
 ESTIMATE = "estimate.json"
 FEE_MODEL = "fee_model.json"
 WORKBOOK = "fee_workbook.xlsx"
+BUILDUP_XLSX = "fee_buildup.xlsx"
 PROPOSAL = "proposal.md"
 PROPOSAL_DOCX = "proposal.docx"
 
@@ -101,7 +102,9 @@ def estimate(outdir: str, rate_card_path: str, benchmarks_path: str | None) -> N
 @main.command()
 @click.option("-o", "--outdir", default="out", show_default=True)
 @click.option("--rate-card", "rate_card_path", required=True, type=click.Path(exists=True))
-def price(outdir: str, rate_card_path: str) -> None:
+@click.option("--buildup", "buildup_flag", is_flag=True,
+              help="Also write fee_buildup.xlsx (client-format BUILDUP + CLIENT VIEW)")
+def price(outdir: str, rate_card_path: str, buildup_flag: bool = False) -> None:
     """Deterministically price the estimate, lock the number, write the workbook."""
     out = _out(outdir)
     analysis = _read_json(out / ANALYSIS, ScopeAnalysis)
@@ -110,6 +113,11 @@ def price(outdir: str, rate_card_path: str) -> None:
     model = pricing.price(analysis, est, rc)
     _write_json(out / FEE_MODEL, model)
     write_workbook(model, analysis, out / WORKBOOK)
+    if buildup_flag:
+        from .buildup import write_buildup
+        write_buildup(model, rc, out / BUILDUP_XLSX)
+        click.echo(f"  -> {out / BUILDUP_XLSX} (formulas need one recalc pass in "
+                   "Excel/LibreOffice before values display)")
     click.echo(f"  Total fee: {narrative.fmt_money(model.total_fee)}  "
                f"(lock {model.lock.lock_id})")
     click.echo(f"  Escalation capture vs flat year-1 pricing: "
