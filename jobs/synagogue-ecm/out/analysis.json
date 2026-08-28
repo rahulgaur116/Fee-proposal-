@@ -1,0 +1,128 @@
+{
+  "facts": {
+    "project_name": "Synagogue & Community House \u2014 Energy Conservation Measures Program",
+    "client_name": "Central Synagogue",
+    "project_type": "cost_estimating",
+    "sector": "religious / community facilities",
+    "construction_value": null,
+    "duration_months": 2,
+    "duration_basis": "assumed",
+    "delivery_method": null,
+    "location": "New York, NY",
+    "phases": [
+      {
+        "name": "Estimate Period",
+        "start_month": 1,
+        "duration_months": 2
+      }
+    ],
+    "notes": "Concept level estimate only. Two existing occupied buildings totaling approximately 100,000 GSF. ECM scope narrative is the only design information provided; an FCA exists and is referenced but was not provided."
+  },
+  "deliverables": [
+    {
+      "id": "concept-estimate",
+      "name": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "description": "Order-of-magnitude construction cost estimate covering all listed ECMs across both buildings, including Option 1 / Option 2 comparative pricing of the steam-to-hot-water conversion and the triple-pane window alternate; one estimate review meeting with the Owner and design team; incorporation of one consolidated round of comments; final issue.",
+      "cadence": "once",
+      "phase": "Estimate Period",
+      "source_language": "proposal is for concept level estimate only"
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Design documentation",
+      "question": "No drawings, FCA report, equipment schedules, or existing-conditions documentation were provided.",
+      "why_it_matters": "Concept accuracy and estimating effort both depend on what can be measured versus what must be carried as allowance.",
+      "proposed_assumption": "The estimate will be prepared from the ECM scope narrative, one site walk, and gross-square-foot benchmarks; the FCA report and any available drawings will be made available at kickoff.",
+      "pricing_basis": "Concept (ROM) level estimate in Uniformat, allowance-based quantities on 100,000 GSF total"
+    },
+    {
+      "topic": "Building areas and floor counts",
+      "question": "The split of the 100,000 SF between the Synagogue and Community House, and the floor count of each building, are not stated.",
+      "why_it_matters": "Per-floor measures (fan coils, VAV dampers, lighting, wall insulation) scale directly with floor count.",
+      "proposed_assumption": "Building areas and floor counts will be confirmed at the site walk; quantities are pro-rated on 100,000 GSF total pending confirmation.",
+      "pricing_basis": "Per-floor quantities per the scope narrative, e.g. (6) perimeter fan coils per floor at 1 ton / 400 cfm"
+    },
+    {
+      "topic": "Option pricing basis",
+      "question": "Whether Option 1 and Option 2 for the steam-to-hot-water conversion are both to be fully priced is not stated.",
+      "why_it_matters": "Carrying two full mechanical options materially increases estimating effort.",
+      "proposed_assumption": "The base estimate carries Option 2 (conversion at each building), with Option 1 (central conversion with street crossing) priced at concept level and presented as a comparative cost delta.",
+      "pricing_basis": "One base estimate plus one option delta summary"
+    },
+    {
+      "topic": "Street crossing (Option 1)",
+      "question": "Permitting requirements, utility interferences, and restoration requirements for the street excavation are unknown.",
+      "why_it_matters": "Street work is the stated cost driver separating Option 1 from Option 2 and carries high variability.",
+      "proposed_assumption": "Street excavation, backfill, pavement restoration, and permitting for Option 1 are carried as an allowance assuming a single trench crossing; no utility relocations are assumed.",
+      "pricing_basis": "Single trench crossing allowance; utility test pits and investigations excluded"
+    },
+    {
+      "topic": "Lighting upgrade extent",
+      "question": "The number of unrenovated floors to receive the LED upgrade is not stated.",
+      "why_it_matters": "The per-floor fixture counts are given, but the floor count multiplies them.",
+      "proposed_assumption": "The lighting and plug-load upgrade is priced on the per-floor fixture counts in the scope, applied to all floors not yet renovated to the 5th Floor standard; the floor count will be confirmed at the site walk.",
+      "pricing_basis": "Approximately (30) 2x2 LED and (16) 5-inch recessed LED fixtures per floor, plus occupancy-based receptacle controls"
+    },
+    {
+      "topic": "Occupied operations and phasing",
+      "question": "Construction phasing and whether work must occur off-hours in occupied spaces is not stated.",
+      "why_it_matters": "Off-hours labor premiums materially move mechanical and electrical costs in occupied buildings.",
+      "proposed_assumption": "Both buildings are assumed occupied during construction; an off-hours work premium is carried as a percentage allowance on trades working in occupied areas.",
+      "pricing_basis": "Percentage premium allowance on affected mechanical and electrical trades"
+    },
+    {
+      "topic": "Hazardous materials",
+      "question": "No hazardous materials survey was provided; steam piping insulation and existing wall finishes are typical asbestos-containing suspects in buildings of this vintage.",
+      "why_it_matters": "Abatement can swing demolition and piping conversion costs significantly.",
+      "proposed_assumption": "An abatement allowance is carried as a separately identified line; hazardous materials survey and abatement design are excluded.",
+      "pricing_basis": "Identified abatement allowance only, quantity unverified"
+    },
+    {
+      "topic": "Construction schedule and escalation",
+      "question": "The anticipated construction start and duration are not stated.",
+      "why_it_matters": "Escalation to the construction midpoint is a visible line in any concept estimate and needs a schedule basis.",
+      "proposed_assumption": "The estimate is prepared in current-day dollars with escalation shown as a separately identified line to an assumed construction midpoint approximately 18 months from estimate issue.",
+      "pricing_basis": "Escalation percentage applied as an identified line on the estimate summary"
+    },
+    {
+      "topic": "Review meeting format",
+      "question": "Whether the estimate review is in person or virtual is not stated.",
+      "why_it_matters": "On-site presentation adds travel time for senior staff.",
+      "proposed_assumption": "One estimate review meeting is included, held virtually; an on-site presentation can be provided as an additional service at the hourly rates herein.",
+      "pricing_basis": "One 2-hour virtual review meeting including preparation"
+    },
+    {
+      "topic": "Revision cycles",
+      "question": "The number of comment/revision rounds on the estimate is not stated.",
+      "why_it_matters": "Each additional revision cycle adds assembly and review hours.",
+      "proposed_assumption": "One consolidated round of review comments is incorporated in the final issue; further revisions or re-issues will be billed at the hourly rates herein.",
+      "pricing_basis": "One revision cycle included"
+    },
+    {
+      "topic": "Wall insulation extent",
+      "question": "Which floors will be renovated (triggering the wall insulation measure), and when, is not stated.",
+      "why_it_matters": "The measure is defined per renovated floor; its quantity is otherwise open-ended.",
+      "proposed_assumption": "Wall insulation is priced on a per-floor unit basis for the same floors assumed for the lighting upgrade, as future-renovation scope.",
+      "pricing_basis": "2-inch mineral wool at exterior walls including finish removal and replacement, per-floor unit basis"
+    },
+    {
+      "topic": "Window quantities",
+      "question": "The Community House window count is not stated.",
+      "why_it_matters": "Window replacement is priced per unit; the count is the estimate.",
+      "proposed_assumption": "The window count will be estimated from facade observation at the site walk; the base carries double-pane IGU with the triple-pane unit priced as an add alternate.",
+      "pricing_basis": "Unit cost per window opening, count to be confirmed"
+    }
+  ],
+  "exclusions_suggested": [
+    "Energy modeling, savings/payback analysis, and measurement & verification",
+    "Utility incentive / rebate application support",
+    "Life cycle cost analysis / OPEX costing",
+    "Value engineering beyond the Option 1 / Option 2 comparison described",
+    "Additional estimates or milestones beyond those listed",
+    "Hazardous materials survey and abatement design",
+    "Continuous cost management",
+    "Estimating lengthy or significant design revisions after receipt of documents and notice to proceed",
+    "Reimbursables (billed at cost with no markup, if incurred)"
+  ]
+}

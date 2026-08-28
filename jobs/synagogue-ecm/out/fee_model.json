@@ -1,0 +1,572 @@
+{
+  "project_name": "Synagogue & Community House — Energy Conservation Measures Program",
+  "client_name": "Central Synagogue",
+  "currency": "USD",
+  "term_months": 2,
+  "escalation_pct": 5.0,
+  "lines": [
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 250.0,
+      "amount": 500.0,
+      "flat_amount": 500.0,
+      "basis": "2 h",
+      "rationale": "Kickoff; review ECM scope narrative and FCA recommendations"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Kickoff; review ECM scope narrative and FCA recommendations"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 250.0,
+      "amount": 1000.0,
+      "flat_amount": 1000.0,
+      "basis": "4 h",
+      "rationale": "Site walk - Synagogue & Community House (one day, incl. travel and field notes)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Site walk - Synagogue & Community House (one day, incl. travel and field notes)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6.0,
+      "quantity": 1.0,
+      "total_hours": 6.0,
+      "hours_by_year": {
+        "1": 6.0
+      },
+      "base_rate": 190.0,
+      "amount": 1140.0,
+      "flat_amount": 1140.0,
+      "basis": "6 h",
+      "rationale": "Steam-to-hot-water conversion, Option 1: central conversion at Synagogue, street crossing, coil and piping conversion"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 160.0,
+      "amount": 640.0,
+      "flat_amount": 640.0,
+      "basis": "4 h",
+      "rationale": "Steam-to-hot-water conversion, Option 1: central conversion at Synagogue, street crossing, coil and piping conversion"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Steam-to-hot-water conversion, Option 2: conversion at each building cellar - comparative delta pricing"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Steam-to-hot-water conversion, Option 2: conversion at each building cellar - comparative delta pricing"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Condensate recovery: tanks, pump sets, piping infrastructure, PRV/valve control upgrades, 120F coil resizing at both buildings"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Condensate recovery: tanks, pump sets, piping infrastructure, PRV/valve control upgrades, 120F coil resizing at both buildings"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Fan coil / AHU replacement per FCA ((6) perimeter FCUs per floor); three-way to two-way valve conversions"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 160.0,
+      "amount": 640.0,
+      "flat_amount": 640.0,
+      "basis": "4 h",
+      "rationale": "Fan coil / AHU replacement per FCA ((6) perimeter FCUs per floor); three-way to two-way valve conversions"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Ventilation & controls: BMS integration, DCV at Community House, VAV dampers / OA metering at Sanctuary, DOAS heat recovery, off-hours retuning"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 160.0,
+      "amount": 640.0,
+      "flat_amount": 640.0,
+      "basis": "4 h",
+      "rationale": "Ventilation & controls: BMS integration, DCV at Community House, VAV dampers / OA metering at Sanctuary, DOAS heat recovery, off-hours retuning"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 190.0,
+      "amount": 380.0,
+      "flat_amount": 380.0,
+      "basis": "2 h",
+      "rationale": "Lighting & electrical: LED upgrade per 5th Floor standard; occupancy-based plug-load receptacle controls"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6.0,
+      "quantity": 1.0,
+      "total_hours": 6.0,
+      "hours_by_year": {
+        "1": 6.0
+      },
+      "base_rate": 160.0,
+      "amount": 960.0,
+      "flat_amount": 960.0,
+      "basis": "6 h",
+      "rationale": "Lighting & electrical: LED upgrade per 5th Floor standard; occupancy-based plug-load receptacle controls"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 190.0,
+      "amount": 380.0,
+      "flat_amount": 380.0,
+      "basis": "2 h",
+      "rationale": "Envelope: Community House window replacement (double-pane IGU base, triple-pane add alternate); wall insulation per-floor basis"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 5.0,
+      "quantity": 1.0,
+      "total_hours": 5.0,
+      "hours_by_year": {
+        "1": 5.0
+      },
+      "base_rate": 160.0,
+      "amount": 800.0,
+      "flat_amount": 800.0,
+      "basis": "5 h",
+      "rationale": "Envelope: Community House window replacement (double-pane IGU base, triple-pane add alternate); wall insulation per-floor basis"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6.0,
+      "quantity": 1.0,
+      "total_hours": 6.0,
+      "hours_by_year": {
+        "1": 6.0
+      },
+      "base_rate": 190.0,
+      "amount": 1140.0,
+      "flat_amount": 1140.0,
+      "basis": "6 h",
+      "rationale": "Estimate assembly: markups, GCs, escalation and allowances; Option 1 vs Option 2 comparison summary"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 160.0,
+      "amount": 640.0,
+      "flat_amount": 640.0,
+      "basis": "4 h",
+      "rationale": "Estimate assembly: markups, GCs, escalation and allowances; Option 1 vs Option 2 comparison summary"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "VP",
+      "role_title": "Vice President",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 350.0,
+      "amount": 700.0,
+      "flat_amount": 700.0,
+      "basis": "2 h",
+      "rationale": "Principal QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 250.0,
+      "amount": 1000.0,
+      "flat_amount": 1000.0,
+      "basis": "4 h",
+      "rationale": "Principal QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "VP",
+      "role_title": "Vice President",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 350.0,
+      "amount": 700.0,
+      "flat_amount": 700.0,
+      "basis": "2 h",
+      "rationale": "Estimate Review and Final Issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 250.0,
+      "amount": 500.0,
+      "flat_amount": 500.0,
+      "basis": "2 h",
+      "rationale": "Estimate Review and Final Issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6.0,
+      "quantity": 1.0,
+      "total_hours": 6.0,
+      "hours_by_year": {
+        "1": 6.0
+      },
+      "base_rate": 190.0,
+      "amount": 1140.0,
+      "flat_amount": 1140.0,
+      "basis": "6 h",
+      "rationale": "Estimate Review and Final Issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate — Energy Conservation Measures",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Estimate Review and Final Issue"
+    }
+  ],
+  "hours_by_role": {
+    "DR": 12.0,
+    "SC": 46.0,
+    "CM": 33.0,
+    "VP": 4.0
+  },
+  "fee_by_role": {
+    "DR": 3000.0,
+    "SC": 8740.0,
+    "CM": 5280.0,
+    "VP": 1400.0
+  },
+  "fee_by_phase": {
+    "Estimate Period": 18420.0
+  },
+  "fee_by_year": {
+    "1": 18420.0
+  },
+  "fee_by_deliverable": {
+    "Concept Level Estimate — Energy Conservation Measures": 18420.0
+  },
+  "subtotal": 18420.0,
+  "contingency_pct": 0.0,
+  "contingency_amount": 0.0,
+  "rounding_adjustment": 0.0,
+  "total_fee": 18420.0,
+  "flat_rate_subtotal": 18420.0,
+  "escalation_capture": 0.0,
+  "fee_pct_of_construction": null,
+  "margins": [
+    {
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "revenue": 5280.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    },
+    {
+      "role_code": "DR",
+      "role_title": "Director",
+      "revenue": 3000.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    },
+    {
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "revenue": 8740.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    },
+    {
+      "role_code": "VP",
+      "role_title": "Vice President",
+      "revenue": 1400.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    }
+  ],
+  "warnings": [],
+  "lock": {
+    "lock_id": "46a87ed1497e",
+    "total_fee": 18420.0,
+    "locked_at": "2026-08-28T13:38:45+00:00"
+  }
+}

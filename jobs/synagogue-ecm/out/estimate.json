@@ -1,0 +1,265 @@
+{
+  "lines": [
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Kickoff; review ECM scope narrative and FCA recommendations"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Kickoff; review ECM scope narrative and FCA recommendations"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Site walk - Synagogue & Community House (one day, incl. travel and field notes)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Site walk - Synagogue & Community House (one day, incl. travel and field notes)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6,
+      "quantity": null,
+      "rationale": "Steam-to-hot-water conversion, Option 1: central conversion at Synagogue, street crossing, coil and piping conversion"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Steam-to-hot-water conversion, Option 1: central conversion at Synagogue, street crossing, coil and piping conversion"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Steam-to-hot-water conversion, Option 2: conversion at each building cellar - comparative delta pricing"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Steam-to-hot-water conversion, Option 2: conversion at each building cellar - comparative delta pricing"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Condensate recovery: tanks, pump sets, piping infrastructure, PRV/valve control upgrades, 120F coil resizing at both buildings"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Condensate recovery: tanks, pump sets, piping infrastructure, PRV/valve control upgrades, 120F coil resizing at both buildings"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Fan coil / AHU replacement per FCA ((6) perimeter FCUs per floor); three-way to two-way valve conversions"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Fan coil / AHU replacement per FCA ((6) perimeter FCUs per floor); three-way to two-way valve conversions"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Ventilation & controls: BMS integration, DCV at Community House, VAV dampers / OA metering at Sanctuary, DOAS heat recovery, off-hours retuning"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Ventilation & controls: BMS integration, DCV at Community House, VAV dampers / OA metering at Sanctuary, DOAS heat recovery, off-hours retuning"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Lighting & electrical: LED upgrade per 5th Floor standard; occupancy-based plug-load receptacle controls"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6,
+      "quantity": null,
+      "rationale": "Lighting & electrical: LED upgrade per 5th Floor standard; occupancy-based plug-load receptacle controls"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Envelope: Community House window replacement (double-pane IGU base, triple-pane add alternate); wall insulation per-floor basis"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 5,
+      "quantity": null,
+      "rationale": "Envelope: Community House window replacement (double-pane IGU base, triple-pane add alternate); wall insulation per-floor basis"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6,
+      "quantity": null,
+      "rationale": "Estimate assembly: markups, GCs, escalation and allowances; Option 1 vs Option 2 comparison summary"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Estimate assembly: markups, GCs, escalation and allowances; Option 1 vs Option 2 comparison summary"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "VP",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Principal QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Principal QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "VP",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Estimate Review and Final Issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Estimate Review and Final Issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6,
+      "quantity": null,
+      "rationale": "Estimate Review and Final Issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Level Estimate \u2014 Energy Conservation Measures",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Estimate Review and Final Issue"
+    }
+  ],
+  "staffing_notes": "Hours per client-approved Fee_Buildup_Central_Synagogue.xlsx: single Concept Estimate deliverable (code CON) including the review meeting and final issue. 95 h total: VP 4, DR 12, SC 46, CM 33."
+}
