@@ -1,0 +1,458 @@
+{
+  "project_name": "92NY — Kaufmann Concert Hall, Hall of Mirrors & Weill Art Gallery Interior Renovation",
+  "client_name": "92NY",
+  "currency": "USD",
+  "term_months": 2,
+  "escalation_pct": 5.0,
+  "lines": [
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 250.0,
+      "amount": 500.0,
+      "flat_amount": 500.0,
+      "basis": "2 h",
+      "rationale": "Kickoff; review concept design package and available existing-conditions documentation"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 190.0,
+      "amount": 380.0,
+      "flat_amount": 380.0,
+      "basis": "2 h",
+      "rationale": "Kickoff; review concept design package and available existing-conditions documentation"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3.0,
+      "quantity": 1.0,
+      "total_hours": 3.0,
+      "hours_by_year": {
+        "1": 3.0
+      },
+      "base_rate": 250.0,
+      "amount": 750.0,
+      "flat_amount": 750.0,
+      "basis": "3 h",
+      "rationale": "Site walk — Kaufmann Concert Hall, Hall of Mirrors, Weill Art Gallery"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3.0,
+      "quantity": 1.0,
+      "total_hours": 3.0,
+      "hours_by_year": {
+        "1": 3.0
+      },
+      "base_rate": 190.0,
+      "amount": 570.0,
+      "flat_amount": 570.0,
+      "basis": "3 h",
+      "rationale": "Site walk — Kaufmann Concert Hall, Hall of Mirrors, Weill Art Gallery"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 8.0,
+      "quantity": 1.0,
+      "total_hours": 8.0,
+      "hours_by_year": {
+        "1": 8.0
+      },
+      "base_rate": 190.0,
+      "amount": 1520.0,
+      "flat_amount": 1520.0,
+      "basis": "8 h",
+      "rationale": "Demolition, architectural finishes, millwork & fixed seating takeoff and pricing"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6.0,
+      "quantity": 1.0,
+      "total_hours": 6.0,
+      "hours_by_year": {
+        "1": 6.0
+      },
+      "base_rate": 160.0,
+      "amount": 960.0,
+      "flat_amount": 960.0,
+      "basis": "6 h",
+      "rationale": "Demolition, architectural finishes, millwork & fixed seating takeoff and pricing"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Theatrical, AV, acoustic & specialty lighting system allowances (with design team input)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Theatrical, AV, acoustic & specialty lighting system allowances (with design team input)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6.0,
+      "quantity": 1.0,
+      "total_hours": 6.0,
+      "hours_by_year": {
+        "1": 6.0
+      },
+      "base_rate": 190.0,
+      "amount": 1140.0,
+      "flat_amount": 1140.0,
+      "basis": "6 h",
+      "rationale": "MEP & fire protection modifications within the renovation footprint"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 160.0,
+      "amount": 640.0,
+      "flat_amount": 640.0,
+      "basis": "4 h",
+      "rationale": "MEP & fire protection modifications within the renovation footprint"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 190.0,
+      "amount": 380.0,
+      "flat_amount": 380.0,
+      "basis": "2 h",
+      "rationale": "Historic / ornate finish restoration allowances (Hall of Mirrors)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Historic / ornate finish restoration allowances (Hall of Mirrors)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Estimate assembly: GCs, markups, escalation, occupied-venue premiums & logistics"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Estimate assembly: GCs, markups, escalation, occupied-venue premiums & logistics"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "VP",
+      "role_title": "Vice President",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 350.0,
+      "amount": 700.0,
+      "flat_amount": 700.0,
+      "basis": "2 h",
+      "rationale": "Principal QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 250.0,
+      "amount": 500.0,
+      "flat_amount": 500.0,
+      "basis": "2 h",
+      "rationale": "Principal QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "VP",
+      "role_title": "Vice President",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 1.0,
+      "quantity": 1.0,
+      "total_hours": 1.0,
+      "hours_by_year": {
+        "1": 1.0
+      },
+      "base_rate": 350.0,
+      "amount": 350.0,
+      "flat_amount": 350.0,
+      "basis": "1 h",
+      "rationale": "Estimate review meeting, comment incorporation & final issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 250.0,
+      "amount": 500.0,
+      "flat_amount": 500.0,
+      "basis": "2 h",
+      "rationale": "Estimate review meeting, comment incorporation & final issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4.0,
+      "quantity": 1.0,
+      "total_hours": 4.0,
+      "hours_by_year": {
+        "1": 4.0
+      },
+      "base_rate": 190.0,
+      "amount": 760.0,
+      "flat_amount": 760.0,
+      "basis": "4 h",
+      "rationale": "Estimate review meeting, comment incorporation & final issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate — Interior Renovation",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Estimate review meeting, comment incorporation & final issue"
+    }
+  ],
+  "hours_by_role": {
+    "DR": 9.0,
+    "SC": 33.0,
+    "CM": 18.0,
+    "VP": 3.0
+  },
+  "fee_by_role": {
+    "DR": 2250.0,
+    "SC": 6270.0,
+    "CM": 2880.0,
+    "VP": 1050.0
+  },
+  "fee_by_phase": {
+    "Estimate Period": 12450.0
+  },
+  "fee_by_year": {
+    "1": 12450.0
+  },
+  "fee_by_deliverable": {
+    "Concept Design Estimate — Interior Renovation": 12450.0
+  },
+  "subtotal": 12450.0,
+  "contingency_pct": 0.0,
+  "contingency_amount": 0.0,
+  "rounding_adjustment": 0.0,
+  "total_fee": 12450.0,
+  "flat_rate_subtotal": 12450.0,
+  "escalation_capture": 0.0,
+  "fee_pct_of_construction": null,
+  "margins": [
+    {
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "revenue": 2880.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    },
+    {
+      "role_code": "DR",
+      "role_title": "Director",
+      "revenue": 2250.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    },
+    {
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "revenue": 6270.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    },
+    {
+      "role_code": "VP",
+      "role_title": "Vice President",
+      "revenue": 1050.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    }
+  ],
+  "warnings": [],
+  "lock": {
+    "lock_id": "f6934cc8b273",
+    "total_fee": 12450.0,
+    "locked_at": "2026-09-08T19:53:30+00:00"
+  }
+}

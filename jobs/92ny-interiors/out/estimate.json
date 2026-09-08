@@ -1,0 +1,205 @@
+{
+  "lines": [
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Kickoff; review concept design package and available existing-conditions documentation"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Kickoff; review concept design package and available existing-conditions documentation"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Site walk \u2014 Kaufmann Concert Hall, Hall of Mirrors, Weill Art Gallery"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Site walk \u2014 Kaufmann Concert Hall, Hall of Mirrors, Weill Art Gallery"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 8,
+      "quantity": null,
+      "rationale": "Demolition, architectural finishes, millwork & fixed seating takeoff and pricing"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6,
+      "quantity": null,
+      "rationale": "Demolition, architectural finishes, millwork & fixed seating takeoff and pricing"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Theatrical, AV, acoustic & specialty lighting system allowances (with design team input)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Theatrical, AV, acoustic & specialty lighting system allowances (with design team input)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6,
+      "quantity": null,
+      "rationale": "MEP & fire protection modifications within the renovation footprint"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "MEP & fire protection modifications within the renovation footprint"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Historic / ornate finish restoration allowances (Hall of Mirrors)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Historic / ornate finish restoration allowances (Hall of Mirrors)"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Estimate assembly: GCs, markups, escalation, occupied-venue premiums & logistics"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Estimate assembly: GCs, markups, escalation, occupied-venue premiums & logistics"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "VP",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Principal QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Principal QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "VP",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 1,
+      "quantity": null,
+      "rationale": "Estimate review meeting, comment incorporation & final issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Estimate review meeting, comment incorporation & final issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Estimate review meeting, comment incorporation & final issue"
+    },
+    {
+      "deliverable_id": "concept-estimate",
+      "deliverable": "Concept Design Estimate \u2014 Interior Renovation",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Estimate review meeting, comment incorporation & final issue"
+    }
+  ],
+  "staffing_notes": "10K SF, three specialty interior spaces in an operating venue. Senior Cost Manager carries architectural/MEP pricing; Cost Manager takeoff and assembly; Director leads site walk and QA; VP principal review and client meeting."
+}

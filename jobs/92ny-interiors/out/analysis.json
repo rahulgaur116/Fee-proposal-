@@ -1,0 +1,123 @@
+{
+  "facts": {
+    "project_name": "92NY — Kaufmann Concert Hall, Hall of Mirrors & Weill Art Gallery Interior Renovation",
+    "client_name": "92NY",
+    "project_type": "cost_estimating",
+    "sector": "cultural / performing arts",
+    "construction_value": null,
+    "duration_months": 2,
+    "duration_basis": "assumed",
+    "delivery_method": null,
+    "location": "New York, NY",
+    "phases": [
+      {"name": "Estimate Period", "start_month": 1, "duration_months": 2}
+    ],
+    "notes": "Concept design estimate for a ~10,000 SF interior renovation of three specialty spaces in an operating cultural venue (1930 building). Concept design package expected end of October; estimate required at that time. No budget, package contents, schedule, or phasing information provided."
+  },
+  "deliverables": [
+    {
+      "id": "concept-estimate",
+      "name": "Concept Design Estimate — Interior Renovation",
+      "description": "Concept design construction cost estimate for the interior renovation of the Kaufmann Concert Hall, Hall of Mirrors, and Weill Art Gallery, prepared from the end-of-October concept design package: demolition, architectural finishes, millwork and seating, theatrical/AV/acoustic and specialty lighting allowances, MEP and fire protection modifications, and identified allowances; one estimate review meeting; incorporation of one consolidated round of comments; final issue.",
+      "cadence": "once",
+      "phase": "Estimate Period",
+      "source_language": "provide a proposal for concept design cost estimating services and confirm your availability to prepare the estimate at the end of October"
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Concept package contents",
+      "question": "The contents of the concept design package (plans, narratives, finish intent, system descriptions) are not yet defined.",
+      "why_it_matters": "What can be measured versus what must be carried as allowance depends on the package's level of development.",
+      "proposed_assumption": "The package is assumed to include concept plans and an outline design narrative for each space; design intent not yet drawn will be captured through clearly identified allowances and communicated back for confirmation at the estimate review.",
+      "pricing_basis": "Concept-level estimate in Uniformat on approximately 10,000 SF, allowance-based where the package is not yet developed"
+    },
+    {
+      "topic": "Construction budget",
+      "question": "No target construction budget or order-of-magnitude value has been shared.",
+      "why_it_matters": "A stated target lets the estimate be presented against the budget with variances identified.",
+      "proposed_assumption": "The estimate will establish the concept budget from first principles and benchmarks; if a target budget exists, it will be shared at kickoff so variances can be identified.",
+      "pricing_basis": "One baseline concept estimate; no budget-reconciliation exercise assumed"
+    },
+    {
+      "topic": "Theatrical, AV and acoustic systems",
+      "question": "Whether theatrical systems, audiovisual, and acoustic treatments at the Kaufmann Concert Hall are part of the renovation scope, and who procures them, is not stated.",
+      "why_it_matters": "These systems can rival the architectural cost of a concert hall renovation and are often owner-procured.",
+      "proposed_assumption": "Theatrical, AV, acoustic, and specialty lighting scope shown in the concept package is carried as identified allowances developed with the design team; vendor-designed systems are priced as allowances only.",
+      "pricing_basis": "Identified allowances per system, based on the package and design team input"
+    },
+    {
+      "topic": "Seating and FF&E",
+      "question": "Whether concert hall seating replacement and loose furnishings are in the renovation scope is not stated.",
+      "why_it_matters": "Seating is a major line in any concert hall renovation; loose FF&E is commonly owner-procured.",
+      "proposed_assumption": "Fixed seating is priced as an allowance if shown in the concept package; loose furniture, fixtures and equipment, and artwork are excluded.",
+      "pricing_basis": "Fixed-seating allowance per the package; loose FF&E and artwork excluded"
+    },
+    {
+      "topic": "Historic and ornate finishes",
+      "question": "The extent of restoration versus replacement of the historic and ornate finishes (notably the Hall of Mirrors) is not defined at concept stage.",
+      "why_it_matters": "Restoration of decorative finishes carries specialty-trade premiums that dwarf standard fit-out rates.",
+      "proposed_assumption": "Restoration scope is priced as identified allowances per the concept package's stated intent; no Landmarks Preservation Commission requirements are assumed unless identified in the package.",
+      "pricing_basis": "Specialty restoration allowances per space; no LPC filings or requirements assumed"
+    },
+    {
+      "topic": "MEP extent",
+      "question": "Whether mechanical, electrical, and fire protection work extends beyond the renovated spaces (e.g., plant or riser upgrades) is not stated.",
+      "why_it_matters": "Central plant or infrastructure work would materially change the estimate's scope.",
+      "proposed_assumption": "MEP and fire protection work is limited to modifications within the ~10,000 SF renovation footprint; no central plant, service, or riser upgrades are assumed.",
+      "pricing_basis": "MEP modifications within the renovation footprint only"
+    },
+    {
+      "topic": "Occupied venue operations and phasing",
+      "question": "Construction phasing around 92NY's performance and program calendar is not defined.",
+      "why_it_matters": "Work around an active venue calendar forces off-hours labor and compressed-schedule premiums.",
+      "proposed_assumption": "The building is assumed to remain in operation; an off-hours / occupied-venue work premium and logistics allowance is carried as a percentage on affected trades, with phasing to be developed with the project team.",
+      "pricing_basis": "Percentage premium and logistics allowance on affected trades"
+    },
+    {
+      "topic": "Hazardous materials",
+      "question": "No hazardous materials survey has been provided for spaces of this vintage.",
+      "why_it_matters": "Abatement can materially affect demolition costs in a 1930s building.",
+      "proposed_assumption": "An abatement allowance is carried as a separately identified line; hazardous materials survey and abatement design are excluded.",
+      "pricing_basis": "Identified abatement allowance only, quantity unverified"
+    },
+    {
+      "topic": "Structural and vertical transportation",
+      "question": "Whether any structural modifications or elevator/lift work is contemplated is not stated.",
+      "why_it_matters": "Either would add scope well beyond an interior fit-out basis.",
+      "proposed_assumption": "No structural modifications or vertical transportation work is assumed unless shown in the concept package.",
+      "pricing_basis": "Interior fit-out basis; structure and VT excluded unless drawn"
+    },
+    {
+      "topic": "Construction schedule and escalation",
+      "question": "The anticipated construction start and duration are not stated.",
+      "why_it_matters": "Escalation to the construction midpoint needs a schedule basis.",
+      "proposed_assumption": "The estimate is prepared in current-day dollars with escalation shown as a separately identified line to an assumed construction midpoint approximately 12 months from estimate issue.",
+      "pricing_basis": "Escalation percentage applied as an identified line on the estimate summary"
+    },
+    {
+      "topic": "Estimate schedule",
+      "question": "The concept package is expected at the end of October; the required turnaround is not stated.",
+      "why_it_matters": "The fee assumes a normal working turnaround, not an expedited one.",
+      "proposed_assumption": "The draft estimate will be issued within two weeks of receipt of a complete concept package, with the final estimate issued within one week of receiving consolidated comments; expedited turnaround can be discussed if required.",
+      "pricing_basis": "Draft in 2 weeks from complete package; final 1 week after comments"
+    },
+    {
+      "topic": "Review meeting and revisions",
+      "question": "The review meeting format and number of comment rounds are not stated.",
+      "why_it_matters": "Each additional revision cycle adds assembly and review hours.",
+      "proposed_assumption": "One estimate review meeting is included, held virtually; one consolidated round of review comments is incorporated in the final issue. Further meetings, revisions, or re-issues will be billed at the hourly rates herein.",
+      "pricing_basis": "One virtual review meeting and one revision cycle included"
+    }
+  ],
+  "exclusions_suggested": [
+    "Loose furniture, fixtures & equipment (FF&E) and artwork",
+    "Theatrical, AV, and acoustic system design or procurement support (systems priced as allowances only)",
+    "Life cycle cost analysis / OPEX costing",
+    "Value engineering studies",
+    "Additional estimates or milestones beyond those listed above",
+    "Hazardous materials survey and abatement design",
+    "Continuous cost management",
+    "Reimbursables (to be billed at cost with no markup, if incurred)"
+  ]
+}
