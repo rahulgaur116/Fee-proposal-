@@ -81,6 +81,49 @@ Change the hours after pricing? Re-run `price` — the lock id changes and the
 draft is re-verified against the new number. Edit `fee_model.json` by hand and
 the lock check refuses it.
 
+## The learning loop
+
+Every job you price is recorded automatically in a local SQLite database
+(`FEEPROP_DB`, default `~/.feeprop/proposals.db`) — project, client, term,
+fee, hours by deliverable by role, and the lock id. Close the loop when you
+hear back, and rebuild the benchmarks the estimator anchors on:
+
+```bash
+feeprop price -o out/ --rate-card rc.yaml        # auto-records the job
+feeprop history                                  # everything you've priced
+feeprop outcome "Metrotech" --won --final-fee 320000
+feeprop calibrate --from-db -o benchmarks.yaml   # relearn from the history
+feeprop estimate -o out/ --rate-card rc.yaml --benchmarks benchmarks.yaml
+```
+
+Each new proposal tightens the per-deliverable hours benchmarks (p25/p50/p75,
+normalized per month of term), and each logged outcome feeds the won-vs-lost
+fee positioning stats. The learning is deliberately transparent: it's a
+database plus statistics you can open and read (`benchmarks.yaml`), never a
+black box adjusting your numbers. Pass `--no-record` on `price` for what-if
+runs you don't want in the history.
+
+This repo carries its own history in `db/proposals.db` and the benchmarks
+built from it in `benchmarks.yaml`.
+
+## Running on your machine
+
+`feeprop` is a normal Python package — nothing here needs the cloud except
+the three Claude-powered stages.
+
+```bash
+git clone <this repo> && cd <repo>
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -e ".[docs,dev]"
+export ANTHROPIC_API_KEY=sk-ant-...                  # Windows: setx ANTHROPIC_API_KEY sk-ant-...
+feeprop doctor                                       # verifies the whole setup
+```
+
+`feeprop doctor` checks Python, dependencies, the optional PDF/DOCX extras,
+the API key, and the proposal database. `analyze`, `estimate`, `draft`, and
+`extract-past` call the Claude API and need the key; `price`, `calibrate`,
+`history`, `outcome`, and the workbooks run fully offline.
+
 ## Calibration: your last forty submissions
 
 The estimator is only as good as its anchors. Calibration turns past

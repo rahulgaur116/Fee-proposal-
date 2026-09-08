@@ -13,7 +13,10 @@ priced and drafted fee proposal out. See README.md for the product story.
   - `scope.py` / `estimator.py` / `narrative.py` — the three LLM stages
     (structured extraction via `llm.extract`, drafting via `llm.draft_stream`)
   - `llm.py` — the only module that touches the Anthropic SDK
-  - `workbook.py` — xlsx output; `docx_out.py` — markdown→docx converter
+  - `workbook.py` — xlsx output; `docx_out.py` — markdown→docx converter;
+    `buildup.py` — client-format BUILDUP/CLIENT VIEW workbook export
+  - `db.py` — SQLite proposal history (auto-recorded by `price`, feeds
+    `calibrate --from-db`). No LLM calls here either.
   - `cli.py` — click CLI; stages read/write JSON artifacts in the outdir
 - `examples/` — rate card, template, sample RFP, past-submission records
 - `tests/` — fully offline; no API key needed, keep it that way

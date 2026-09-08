@@ -16,6 +16,7 @@ the proposal reviews and edits the hours before the number locks:
 
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -23,6 +24,7 @@ import click
 import yaml
 
 from . import calibrate as cal
+from . import db as dbmod
 from . import estimator, ingest, narrative, pricing, scope
 from .models import Estimate, FeeModel, RateCard, ScopeAnalysis
 from .workbook import write_workbook
@@ -104,7 +106,11 @@ def estimate(outdir: str, rate_card_path: str, benchmarks_path: str | None) -> N
 @click.option("--rate-card", "rate_card_path", required=True, type=click.Path(exists=True))
 @click.option("--buildup", "buildup_flag", is_flag=True,
               help="Also write fee_buildup.xlsx (client-format BUILDUP + CLIENT VIEW)")
-def price(outdir: str, rate_card_path: str, buildup_flag: bool = False) -> None:
+@click.option("--db", "db_path", default=None,
+              help="Proposal database path (default: FEEPROP_DB or ~/.feeprop/proposals.db)")
+@click.option("--no-record", is_flag=True, help="Skip recording this job in the database")
+def price(outdir: str, rate_card_path: str, buildup_flag: bool = False,
+          db_path: str | None = None, no_record: bool = False) -> None:
     """Deterministically price the estimate, lock the number, write the workbook."""
     out = _out(outdir)
     analysis = _read_json(out / ANALYSIS, ScopeAnalysis)
@@ -113,6 +119,13 @@ def price(outdir: str, rate_card_path: str, buildup_flag: bool = False) -> None:
     model = pricing.price(analysis, est, rc)
     _write_json(out / FEE_MODEL, model)
     write_workbook(model, analysis, out / WORKBOOK)
+    if not no_record:
+        conn = dbmod.connect(db_path)
+        dbmod.record_job(conn, analysis, model)
+        conn.close()
+        click.echo(f"  Recorded in proposal database "
+                   f"({db_path or dbmod.default_path()}) - log the result later "
+                   f"with `feeprop outcome`.")
     if buildup_flag:
         from .buildup import write_buildup
         write_buildup(model, rc, out / BUILDUP_XLSX)
@@ -175,11 +188,23 @@ def propose(scope_doc: str, outdir: str, rate_card_path: str,
 
 
 @main.command()
-@click.argument("submissions", nargs=-1, required=True, type=click.Path(exists=True))
+@click.argument("submissions", nargs=-1, type=click.Path(exists=True))
 @click.option("-o", "--output", default="benchmarks.yaml", show_default=True)
-def calibrate(submissions: tuple[str, ...], output: str) -> None:
-    """Build hours benchmarks from past submission records (YAML)."""
-    subs = cal.load_submissions(list(submissions))
+@click.option("--from-db", "from_db", is_flag=True,
+              help="Include every proposal recorded in the database")
+@click.option("--db", "db_path", default=None,
+              help="Proposal database path (default: FEEPROP_DB or ~/.feeprop/proposals.db)")
+def calibrate(submissions: tuple[str, ...], output: str,
+              from_db: bool = False, db_path: str | None = None) -> None:
+    """Build hours benchmarks from past submissions (YAML files and/or the database)."""
+    subs = cal.load_submissions(list(submissions)) if submissions else []
+    if from_db:
+        conn = dbmod.connect(db_path)
+        subs += dbmod.load_submissions(conn)
+        conn.close()
+    if not subs:
+        raise click.ClickException(
+            "Nothing to calibrate from - pass YAML records and/or --from-db.")
     bm = cal.build_benchmarks(subs)
     cal.save_benchmarks(bm, output)
     click.echo(f"  {bm.n_submissions} submissions, "
@@ -188,6 +213,90 @@ def calibrate(submissions: tuple[str, ...], output: str) -> None:
         click.echo(f"  Median fee % of construction (won): {bm.fee_pct_won_median:.3f}%")
     if bm.fee_pct_lost_median is not None:
         click.echo(f"  Median fee % of construction (lost): {bm.fee_pct_lost_median:.3f}%")
+
+
+@main.command()
+@click.option("--db", "db_path", default=None,
+              help="Proposal database path (default: FEEPROP_DB or ~/.feeprop/proposals.db)")
+def history(db_path: str | None = None) -> None:
+    """List every proposal recorded in the database."""
+    conn = dbmod.connect(db_path)
+    rows = dbmod.list_jobs(conn)
+    conn.close()
+    if not rows:
+        click.echo("No proposals recorded yet - run `feeprop price` on a job.")
+        return
+    for r in rows:
+        click.echo(f"  [{r['outcome']:>7}] {r['project_name']}")
+        click.echo(f"           {r['client_name']} | {r['duration_months']} mo | "
+                   f"{r['total_hours']:,.0f} h | ${r['total_fee']:,.0f} | "
+                   f"lock {r['lock_id']} | priced {r['priced_at'][:10]}")
+
+
+@main.command()
+@click.argument("project_name")
+@click.option("--won", "outcome", flag_value="won")
+@click.option("--lost", "outcome", flag_value="lost")
+@click.option("--pending", "outcome", flag_value="pending")
+@click.option("--final-fee", type=float, default=None,
+              help="Negotiated/contracted fee if it differs from the proposal")
+@click.option("--notes", default=None)
+@click.option("--db", "db_path", default=None,
+              help="Proposal database path (default: FEEPROP_DB or ~/.feeprop/proposals.db)")
+def outcome(project_name: str, outcome: str | None, final_fee: float | None,
+            notes: str | None, db_path: str | None = None) -> None:
+    """Log a win/loss so the fee positioning stats learn from it."""
+    if not outcome:
+        raise click.ClickException("Pass --won, --lost, or --pending.")
+    conn = dbmod.connect(db_path)
+    try:
+        dbmod.set_outcome(conn, project_name, outcome, final_fee, notes)
+    except KeyError as e:
+        raise click.ClickException(str(e)) from e
+    finally:
+        conn.close()
+    click.echo(f"  Recorded {outcome} for '{project_name}'. "
+               "Re-run `feeprop calibrate --from-db` to refresh benchmarks.")
+
+
+@main.command()
+@click.option("--db", "db_path", default=None)
+def doctor(db_path: str | None = None) -> None:
+    """Check this machine's setup: deps, API key, extras, database."""
+    import importlib
+    import sys as _sys
+
+    def check(label: str, ok: bool, hint: str = "") -> None:
+        mark = "ok " if ok else "MISSING"
+        click.echo(f"  [{mark:>7}] {label}" + (f" - {hint}" if not ok and hint else ""))
+
+    click.echo(f"feeprop doctor (python {_sys.version.split()[0]})")
+    check("python >= 3.10", _sys.version_info >= (3, 10), "install Python 3.10+")
+    for mod, hint in [("anthropic", "pip install anthropic"),
+                      ("pydantic", "pip install pydantic"),
+                      ("openpyxl", "pip install openpyxl"),
+                      ("yaml", "pip install PyYAML")]:
+        try:
+            importlib.import_module(mod)
+            check(f"dependency: {mod}", True)
+        except ImportError:
+            check(f"dependency: {mod}", False, hint)
+    for mod, feat in [("pypdf", "PDF scope ingestion"), ("docx", "DOCX output/ingestion")]:
+        try:
+            importlib.import_module(mod)
+            check(f"optional: {mod} ({feat})", True)
+        except ImportError:
+            check(f"optional: {mod} ({feat})", False, "pip install 'feeprop[docs]'")
+    has_key = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
+    check("ANTHROPIC_API_KEY (needed for analyze/estimate/draft)", has_key,
+          "export ANTHROPIC_API_KEY=sk-ant-... ; price/calibrate/history work without it")
+    try:
+        conn = dbmod.connect(db_path)
+        n = len(dbmod.list_jobs(conn))
+        conn.close()
+        check(f"proposal database ({db_path or dbmod.default_path()}): {n} proposals", True)
+    except Exception as e:
+        check("proposal database", False, str(e))
 
 
 @main.command("extract-past")

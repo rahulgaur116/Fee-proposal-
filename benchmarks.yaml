@@ -1,0 +1,30 @@
+n_submissions: 3
+deliverables:
+- deliverable: "concept design estimate \u2014 interior renovation"
+  unit: per_month
+  n: 1
+  p25: 31.5
+  p50: 31.5
+  p75: 31.5
+- deliverable: "concept level estimate \u2014 energy conservation measures"
+  unit: per_month
+  n: 1
+  p25: 47.5
+  p50: 47.5
+  p75: 47.5
+- deliverable: cost management through 100% design development
+  unit: per_month
+  n: 1
+  p25: 11.55
+  p50: 11.55
+  p75: 11.55
+- deliverable: "cost management \u2014 construction through closeout"
+  unit: per_month
+  n: 1
+  p25: 33.37
+  p50: 33.37
+  p75: 33.37
+fee_pct_won_median: null
+fee_pct_lost_median: null
+notes: Calibrated from 3 submissions. per_month = total hours on that deliverable
+  divided by contract months.
