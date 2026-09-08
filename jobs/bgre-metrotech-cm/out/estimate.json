@@ -1,0 +1,285 @@
+{
+  "lines": [
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "DR",
+      "phase": "Design & Preconstruction",
+      "cadence": "once",
+      "hours_each": 8,
+      "quantity": null,
+      "rationale": "Mobilization: cost-control framework, WBS/cost codes by asset-improvement bucket, report formats & procedures"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "SC",
+      "phase": "Design & Preconstruction",
+      "cadence": "once",
+      "hours_each": 16,
+      "quantity": null,
+      "rationale": "Mobilization: cost-control framework, WBS/cost codes by asset-improvement bucket, report formats & procedures"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "CM",
+      "phase": "Design & Preconstruction",
+      "cadence": "once",
+      "hours_each": 12,
+      "quantity": null,
+      "rationale": "Mobilization: cost-control framework, WBS/cost codes by asset-improvement bucket, report formats & procedures"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "DR",
+      "phase": "Design & Preconstruction",
+      "cadence": "once",
+      "hours_each": 8,
+      "quantity": null,
+      "rationale": "Baseline budget establishment & validation across the four asset-improvement buckets"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "SC",
+      "phase": "Design & Preconstruction",
+      "cadence": "once",
+      "hours_each": 32,
+      "quantity": null,
+      "rationale": "Baseline budget establishment & validation across the four asset-improvement buckets"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "CM",
+      "phase": "Design & Preconstruction",
+      "cadence": "once",
+      "hours_each": 24,
+      "quantity": null,
+      "rationale": "Baseline budget establishment & validation across the four asset-improvement buckets"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "DR",
+      "phase": "Design & Preconstruction",
+      "cadence": "total",
+      "hours_each": 6,
+      "quantity": 3,
+      "rationale": "Design milestone estimate & contractor pricing reviews (test fit, schematic, 100% DD)"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "SC",
+      "phase": "Design & Preconstruction",
+      "cadence": "total",
+      "hours_each": 24,
+      "quantity": 3,
+      "rationale": "Design milestone estimate & contractor pricing reviews (test fit, schematic, 100% DD)"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "CM",
+      "phase": "Design & Preconstruction",
+      "cadence": "total",
+      "hours_each": 16,
+      "quantity": 3,
+      "rationale": "Design milestone estimate & contractor pricing reviews (test fit, schematic, 100% DD)"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "SC",
+      "phase": "Design & Preconstruction",
+      "cadence": "total",
+      "hours_each": 16,
+      "quantity": 2,
+      "rationale": "Design-team & early bid package leveling with recommendation matrices"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "CM",
+      "phase": "Design & Preconstruction",
+      "cadence": "total",
+      "hours_each": 12,
+      "quantity": 2,
+      "rationale": "Design-team & early bid package leveling with recommendation matrices"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "SC",
+      "phase": "Design & Preconstruction",
+      "cadence": "monthly",
+      "hours_each": 10,
+      "quantity": null,
+      "rationale": "Monthly cost report & cost-to-complete forecast (design period)"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "CM",
+      "phase": "Design & Preconstruction",
+      "cadence": "monthly",
+      "hours_each": 8,
+      "quantity": null,
+      "rationale": "Monthly cost report & cost-to-complete forecast (design period)"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "SC",
+      "phase": "Design & Preconstruction",
+      "cadence": "monthly",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Commitment & change log maintenance; procurement cost tracking (design period)"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "CM",
+      "phase": "Design & Preconstruction",
+      "cadence": "monthly",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Commitment & change log maintenance; procurement cost tracking (design period)"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "DR",
+      "phase": "Design & Preconstruction",
+      "cadence": "monthly",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Cost oversight & monthly owner cost meeting (design period)"
+    },
+    {
+      "deliverable_id": "cm-dd",
+      "deliverable": "Cost Management through 100% Design Development",
+      "role_code": "VP",
+      "phase": "Design & Preconstruction",
+      "cadence": "monthly",
+      "hours_each": 1,
+      "quantity": null,
+      "rationale": "Cost oversight & monthly owner cost meeting (design period)"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "SC",
+      "phase": "Construction & Closeout",
+      "cadence": "total",
+      "hours_each": 16,
+      "quantity": 6,
+      "rationale": "Trade / GMP bid package leveling & recommendation matrices, incl. MWBE participation tracking"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "CM",
+      "phase": "Construction & Closeout",
+      "cadence": "total",
+      "hours_each": 12,
+      "quantity": 6,
+      "rationale": "Trade / GMP bid package leveling & recommendation matrices, incl. MWBE participation tracking"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "SC",
+      "phase": "Construction & Closeout",
+      "cadence": "monthly",
+      "hours_each": 10,
+      "quantity": null,
+      "rationale": "Monthly cost report, cost-to-complete forecast & contingency tracking (four buckets)"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "CM",
+      "phase": "Construction & Closeout",
+      "cadence": "monthly",
+      "hours_each": 8,
+      "quantity": null,
+      "rationale": "Monthly cost report, cost-to-complete forecast & contingency tracking (four buckets)"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "SC",
+      "phase": "Construction & Closeout",
+      "cadence": "monthly",
+      "hours_each": 6,
+      "quantity": null,
+      "rationale": "Change order review: pricing verification, entitlement, alternatives; change & commitment logs"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "CM",
+      "phase": "Construction & Closeout",
+      "cadence": "monthly",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Change order review: pricing verification, entitlement, alternatives; change & commitment logs"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "DR",
+      "phase": "Construction & Closeout",
+      "cadence": "monthly",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Cost oversight & monthly owner cost meeting (construction & closeout)"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "VP",
+      "phase": "Construction & Closeout",
+      "cadence": "monthly",
+      "hours_each": 1,
+      "quantity": null,
+      "rationale": "Cost oversight & monthly owner cost meeting (construction & closeout)"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "DR",
+      "phase": "Construction & Closeout",
+      "cadence": "once",
+      "hours_each": 4,
+      "quantity": null,
+      "rationale": "Final cost reconciliation & closeout cost report per bucket"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "SC",
+      "phase": "Construction & Closeout",
+      "cadence": "once",
+      "hours_each": 24,
+      "quantity": null,
+      "rationale": "Final cost reconciliation & closeout cost report per bucket"
+    },
+    {
+      "deliverable_id": "cm-construction",
+      "deliverable": "Cost Management \u2014 Construction through Closeout",
+      "role_code": "CM",
+      "phase": "Construction & Closeout",
+      "cadence": "once",
+      "hours_each": 16,
+      "quantity": null,
+      "rationale": "Final cost reconciliation & closeout cost report per bucket"
+    }
+  ],
+  "staffing_notes": "Cost-management-only carve-out from BGRE's owner's-rep RFP. Director-led cost team: SC carries reporting/forecasting and pricing reviews, CM carries assembly and logs, DR oversight + owner meetings, VP principal review. Monthly cadences derive from the two phases (5 and 33 months); rates escalate 5% at each contract anniversary."
+}

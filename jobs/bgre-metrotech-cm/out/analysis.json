@@ -1,0 +1,141 @@
+{
+  "facts": {
+    "project_name": "DCAS Fitout, Whitebox & Capital Improvement — 1 Metrotech Center",
+    "client_name": "BGRE",
+    "project_type": "cost_management",
+    "sector": "commercial office",
+    "construction_value": null,
+    "duration_months": 38,
+    "duration_basis": "inferred",
+    "delivery_method": null,
+    "location": "351 Jay Street, Brooklyn, NY 11217",
+    "phases": [
+      {"name": "Design & Preconstruction", "start_month": 1, "duration_months": 5},
+      {"name": "Construction & Closeout", "start_month": 6, "duration_months": 33}
+    ],
+    "notes": "Cost-management-only response to BGRE's Owner's Representative RFP. 840,406 RSF, 23-story occupied tower, four asset-improvement buckets. Term inferred from the RFP schedule: Oct 19, 2026 start through 100% DDs 3/15/27 (Owner termination option), full length through 12/17/29 (~38 months)."
+  },
+  "deliverables": [
+    {
+      "id": "cm-dd",
+      "name": "Cost Management through 100% Design Development",
+      "description": "October 2026 through March 2027 (the Owner's termination-option period): cost-control mobilization, baseline budget across the four buckets, estimate and contractor pricing reviews at each design issuance, early bid package leveling, monthly cost reporting and forecasting, and monthly owner cost meetings.",
+      "cadence": "once",
+      "phase": "Design & Preconstruction",
+      "source_language": "Anticipated Completion Through 100% DD's (Termination Option): March 15, 2027"
+    },
+    {
+      "id": "cm-construction",
+      "name": "Cost Management — Construction through Closeout",
+      "description": "March 2027 through December 2029: trade/GMP bid package leveling with MWBE participation tracking, monthly cost report and cost-to-complete forecast with contingency tracking, change order pricing and entitlement review, monthly owner cost meetings, and final cost reconciliation and closeout cost report per bucket.",
+      "cadence": "once",
+      "phase": "Construction & Closeout",
+      "source_language": "Anticipated Completion Through Project Closeout: October 5, 2029 / full length of the project (12/17/29)"
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Scope basis",
+      "question": "The RFP requests full Owner's Representative services; this proposal responds for the cost management workstream only.",
+      "why_it_matters": "The fee perimeter must be unambiguous where a broader RFP is answered in part.",
+      "proposed_assumption": "Our services comprise cost management only (RFP Section 4.4, and the cost functions of Sections 4.5 and 4.8). Project, design, schedule, and risk management, general reporting, commissioning oversight, and tenant relocation coordination are performed by others.",
+      "pricing_basis": "Cost management workstream only; all other owner's-rep functions by others"
+    },
+    {
+      "topic": "Construction value basis",
+      "question": "No construction budget or target value is stated in the RFP.",
+      "why_it_matters": "The fee is built as level of effort, not as a percentage of construction cost.",
+      "proposed_assumption": "The fee is a level-of-effort lump sum and does not adjust with the construction value; the baseline budget will be established at mobilization from Owner-provided information.",
+      "pricing_basis": "Level-of-effort fee independent of construction value"
+    },
+    {
+      "topic": "Term and termination option",
+      "question": "The RFP anticipates completion through 100% DDs on 3/15/27 with a termination option, and full project length through 12/17/29.",
+      "why_it_matters": "The fee must be severable at the Owner's termination option.",
+      "proposed_assumption": "The fee is structured in two phases matching the RFP: through 100% Design Development (October 2026 - March 2027) and construction through closeout (March 2027 - December 2029), a 38-month term overall. On termination at 100% DDs, only the first-phase fee applies.",
+      "pricing_basis": "Phase 1 of 5 months; Phase 2 of 33 months; 38-month term"
+    },
+    {
+      "topic": "Bucket allocation",
+      "question": "The RFP requires fees broken into the four asset-improvement buckets, while cost management effort is integrated across them.",
+      "why_it_matters": "One cost team and one reporting cycle serve all buckets; a per-bucket build-up would double-count effort.",
+      "proposed_assumption": "For the Owner's cost coding, the fee is allocated 55% to the 100 Gold Tenant Fitout & Demo/LLW, 20% to the Demo/LLW/Whitebox balance, and 25% to Base Building Capital Improvements. Bucket 4 (tenant relocation coordination) is excluded from this cost-management scope.",
+      "pricing_basis": "55 / 20 / 25 allocation across Buckets 1-3; Bucket 4 excluded"
+    },
+    {
+      "topic": "Design milestone reviews",
+      "question": "The number of design issuances requiring estimate and pricing review through 100% DD is not fixed.",
+      "why_it_matters": "Each milestone review is a discrete block of senior estimating effort.",
+      "proposed_assumption": "Three milestone estimate and contractor pricing reviews are included through 100% DD (test fit, schematic, and 100% DD issuances). Our scope is review and validation of estimates and pricing; independent detailed milestone estimates can be provided as an additional service.",
+      "pricing_basis": "Three pricing reviews included; independent estimates additional"
+    },
+    {
+      "topic": "Bid packages",
+      "question": "The procurement strategy and number of bid packages are not yet defined.",
+      "why_it_matters": "Bid leveling effort scales with the package count.",
+      "proposed_assumption": "Eight bid package levelings are included: two during design/preconstruction (including the design team procurement) and six trade/GMP packages thereafter, each with a leveling sheet and recommendation matrix. Additional packages will be billed at the hourly rates herein.",
+      "pricing_basis": "Eight bid package levelings included"
+    },
+    {
+      "topic": "Change order volume",
+      "question": "Change order volume across an occupied 840,000 RSF program is unknown.",
+      "why_it_matters": "Change review is the most volume-sensitive cost-management task.",
+      "proposed_assumption": "Change order review is priced as a monthly level-of-effort allowance averaged across the construction period; a sustained surge in change volume materially beyond that allowance will be addressed as an additional service.",
+      "pricing_basis": "Monthly change-review allowance across 33 construction months"
+    },
+    {
+      "topic": "Meetings and site presence",
+      "question": "Meeting cadence and required site presence for the cost workstream are not specified.",
+      "why_it_matters": "Site presence drives senior staff hours.",
+      "proposed_assumption": "One monthly owner cost meeting is included throughout the term, at 1 Metrotech Center or virtually; regular site observation is not required for the cost management scope and is not included.",
+      "pricing_basis": "One monthly cost meeting; no routine site observation"
+    },
+    {
+      "topic": "Reporting and technology",
+      "question": "The RFP asks for reporting for each asset improvement and whether systems are included in the fee.",
+      "why_it_matters": "Report multiplicity and platform costs affect effort.",
+      "proposed_assumption": "One consolidated monthly cost report covers the buckets with per-bucket breakouts, using our cost management templates and tools, which are included in the fee with full Owner access to the cost data. Integration into an Owner-mandated PMIS can be accommodated and will be scoped at kickoff.",
+      "pricing_basis": "One consolidated monthly cost report with per-bucket breakouts; our tools included"
+    },
+    {
+      "topic": "MWBE participation",
+      "question": "The RFP requires 25% MWBE participation on bids and asks about in-house MWBE monitoring capabilities.",
+      "why_it_matters": "Participation tracking and formal compliance monitoring are different levels of effort.",
+      "proposed_assumption": "MWBE participation is tracked within our bid leveling and cost reporting from data provided by bidders and contractors. Formal MWBE compliance monitoring, verification, and certification support are excluded and can be provided as an additional service.",
+      "pricing_basis": "MWBE participation tracking within bid leveling and cost reports"
+    },
+    {
+      "topic": "Rate escalation",
+      "question": "The engagement spans more than three years.",
+      "why_it_matters": "Flat year-one rates across a multi-year term silently give away real cost inflation.",
+      "proposed_assumption": "Hourly rates escalate 5% at each contract anniversary per our standard terms; the phase fees herein are built on escalated rates by contract year rather than flat year-one rates.",
+      "pricing_basis": "5% annual rate escalation applied by contract year across the 38-month term"
+    },
+    {
+      "topic": "Owner involvement and information access",
+      "question": "The cost workstream depends on timely access to Owner and contractor information.",
+      "why_it_matters": "Reporting cadence cannot be met without current commitments and pricing data.",
+      "proposed_assumption": "The Owner will provide timely access to contracts, budgets, invoices, contractor pricing, and pay applications, and decisions within agreed review windows; monthly reports reflect information available at the cutoff date.",
+      "pricing_basis": "Owner-provided data access; monthly reporting cutoff basis"
+    },
+    {
+      "topic": "Proposal validity and dates",
+      "question": "The RFP cover states proposals are due September 18, 2026 while Section 15 states September 15, 2026.",
+      "why_it_matters": "Validity and mobilization assumptions hang on the actual award timeline.",
+      "proposed_assumption": "This proposal is valid for 90 days from submission and assumes a notice to proceed in time for the October 19, 2026 design and construction start; we can mobilize the cost team within two weeks of award.",
+      "pricing_basis": "90-day validity; mobilization within two weeks of award"
+    }
+  ],
+  "exclusions_suggested": [
+    "Owner's Representative services beyond cost management: project, design, schedule, and risk management, general project reporting, procurement coordination beyond bid leveling, construction oversight, and commissioning/turnover coordination",
+    "Coordination of existing tenant relocations (Bucket 4); tenant buyout and relocation cost analysis available as an additional service",
+    "Independent detailed milestone estimates (estimate and contractor pricing reviews are included; full independent estimates available as an additional service)",
+    "Formal MWBE compliance monitoring, verification, or certification support (participation tracking within bid leveling and cost reporting is included)",
+    "Schedule management, schedule review, and schedule recovery analysis",
+    "Claims, dispute, or litigation support",
+    "Life cycle cost analysis / OPEX costing",
+    "Value engineering facilitation (cost input to Owner-led VE exercises is included)",
+    "Bid package levelings beyond the eight assumed, and estimating of significant design revisions",
+    "Reimbursables (to be billed at cost with no markup, if incurred)"
+  ]
+}
