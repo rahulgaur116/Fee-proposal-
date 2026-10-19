@@ -22,7 +22,7 @@
     {
       "id": "cd-estimate",
       "name": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
-      "description": "Trade-based CD-level construction cost estimate from the CD Review set and photographs: masonry restoration, roofing replacement, recommended concrete/handrail/painting items, access and general conditions at CT prevailing wage; draft issue with basis of estimate, one review call, one comment round, final issue.",
+      "description": "Trade-based CD-level construction cost estimate from the CD Review set: masonry restoration, roofing replacement, recommended concrete/handrail/painting items, access and general conditions at CT prevailing wage; draft issue with basis of estimate, one review call, one comment round, final issue.",
       "cadence": "once",
       "phase": "Estimate Period",
       "source_language": "Please provide a cost estimate proposal for the attached project"
@@ -33,7 +33,7 @@
       "description": "One site visit to Storrs, CT to field-verify repair extents and access conditions, offered as an optional add-alternate.",
       "cadence": "once",
       "phase": "Estimate Period",
-      "source_language": "I can also provide you with photos"
+      "source_language": null
     }
   ],
   "gaps": [
@@ -41,14 +41,14 @@
       "topic": "Documents",
       "question": "No specifications accompany the CD Review set; repair methods and materials are keynoted only.",
       "why_it_matters": "Unit rates for restoration work depend on method (e.g., cutting depth, mortar type, cap material).",
-      "proposed_assumption": "The estimate is based on the six-sheet CD Review set dated 09/21/26 (CS101, A101, A102, A201, A202, A203) and photographs to be provided by the architect; repair methods and materials are priced per the keynotes and industry-standard practice for matching existing construction.",
-      "pricing_basis": "6-sheet CD Review set plus architect-provided photographs; no specifications"
+      "proposed_assumption": "The estimate is based solely on the six-sheet CD Review set dated 09/21/26 (CS101, A101, A102, A201, A202, A203); no specifications or photographs have been provided. Repair methods and materials are priced per the keynotes and industry-standard practice for matching existing construction.",
+      "pricing_basis": "6-sheet CD Review set only; no specifications or photographs"
     },
     {
       "topic": "Repair quantities",
       "question": "Most repair areas (repointing, spalling, cracks) are keynoted by location but not dimensioned.",
       "why_it_matters": "Masonry repair quantity is the estimate; it is condition-dependent.",
-      "proposed_assumption": "Quantities are measured from the 1/4-inch plans and elevations where dimensioned and otherwise quantified from the keynote extents and photographs; unit rates (per SF of repointing, per brick, per LF of cap) are shown so the Owner can adjust quantities if field conditions differ.",
+      "proposed_assumption": "Quantities are measured from the 1/4-inch plans and elevations where dimensioned and otherwise quantified from the keynoted locations and extents on the drawings; unit rates (per SF of repointing, per brick, per LF of cap) are shown so the Owner can adjust quantities if field conditions differ.",
       "pricing_basis": "Measured quantities with visible unit rates; keynoted extents where undimensioned"
     },
     {
@@ -102,10 +102,10 @@
     },
     {
       "topic": "Site visit",
-      "question": "The architect has offered photographs; a site visit was not requested.",
+      "question": "No photographs or site visit were provided or requested.",
       "why_it_matters": "Field verification tightens condition-dependent quantities but adds travel.",
-      "proposed_assumption": "The base fee is prepared from the drawings and photographs; one site visit to Storrs is offered as an optional add-alternate, priced separately, with mileage billed at cost.",
-      "pricing_basis": "Base from drawings and photos; site visit optional"
+      "proposed_assumption": "The base fee is prepared from the drawings only; one site visit to Storrs to field-verify repair extents is offered as an optional add-alternate, priced separately, with mileage billed at cost.",
+      "pricing_basis": "Base from drawings only; site visit optional"
     },
     {
       "topic": "Review and revisions",

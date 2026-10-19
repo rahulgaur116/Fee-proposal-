@@ -8,7 +8,7 @@
       "cadence": "once",
       "hours_each": 2,
       "quantity": null,
-      "rationale": "Kickoff; review 6-sheet CD Review set and photographs; clarification/RFI list to architect"
+      "rationale": "Kickoff; review 6-sheet CD Review set; clarification/RFI list to architect"
     },
     {
       "deliverable_id": "cd-estimate",
@@ -18,7 +18,7 @@
       "cadence": "once",
       "hours_each": 2,
       "quantity": null,
-      "rationale": "Kickoff; review 6-sheet CD Review set and photographs; clarification/RFI list to architect"
+      "rationale": "Kickoff; review 6-sheet CD Review set; clarification/RFI list to architect"
     },
     {
       "deliverable_id": "cd-estimate",

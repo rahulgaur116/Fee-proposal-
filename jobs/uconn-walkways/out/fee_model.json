@@ -22,7 +22,7 @@
       "amount": 380.0,
       "flat_amount": 380.0,
       "basis": "2 h",
-      "rationale": "Kickoff; review 6-sheet CD Review set and photographs; clarification/RFI list to architect"
+      "rationale": "Kickoff; review 6-sheet CD Review set; clarification/RFI list to architect"
     },
     {
       "deliverable_id": "cd-estimate",
@@ -41,7 +41,7 @@
       "amount": 320.0,
       "flat_amount": 320.0,
       "basis": "2 h",
-      "rationale": "Kickoff; review 6-sheet CD Review set and photographs; clarification/RFI list to architect"
+      "rationale": "Kickoff; review 6-sheet CD Review set; clarification/RFI list to architect"
     },
     {
       "deliverable_id": "cd-estimate",
@@ -347,8 +347,8 @@
   ],
   "warnings": [],
   "lock": {
-    "lock_id": "a9a64e82bcc4",
+    "lock_id": "77b64f13667b",
     "total_fee": 9050.0,
-    "locked_at": "2026-10-19T20:11:17+00:00"
+    "locked_at": "2026-10-19T20:34:53+00:00"
   }
 }
