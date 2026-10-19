@@ -1,0 +1,354 @@
+{
+  "project_name": "UCONN Holcomb & Whitney Residence Halls — Connector Walkway Repairs",
+  "client_name": "Joseph Sepot Architects",
+  "currency": "USD",
+  "term_months": 1,
+  "escalation_pct": 5.0,
+  "lines": [
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 190.0,
+      "amount": 380.0,
+      "flat_amount": 380.0,
+      "basis": "2 h",
+      "rationale": "Kickoff; review 6-sheet CD Review set and photographs; clarification/RFI list to architect"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Kickoff; review 6-sheet CD Review set and photographs; clarification/RFI list to architect"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 10.0,
+      "quantity": 1.0,
+      "total_hours": 10.0,
+      "hours_by_year": {
+        "1": 10.0
+      },
+      "base_rate": 160.0,
+      "amount": 1600.0,
+      "flat_amount": 1600.0,
+      "basis": "10 h",
+      "rationale": "Masonry takeoff: repointing (bridges, arches, caps, chimneys), brick replacement, stone cap replace/repoint, spall & crack repair, cleaning, sealants, plaques"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 190.0,
+      "amount": 380.0,
+      "flat_amount": 380.0,
+      "basis": "2 h",
+      "rationale": "Masonry takeoff: repointing (bridges, arches, caps, chimneys), brick replacement, stone cap replace/repoint, spall & crack repair, cleaning, sealants, plaques"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3.0,
+      "quantity": 1.0,
+      "total_hours": 3.0,
+      "hours_by_year": {
+        "1": 3.0
+      },
+      "base_rate": 190.0,
+      "amount": 570.0,
+      "flat_amount": 570.0,
+      "basis": "3 h",
+      "rationale": "Roofing takeoff & pricing: membrane roof replacement at both bridges with flashing and tapered pitch to scuppers; metal roof clean/sealant; rain leaders"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3.0,
+      "quantity": 1.0,
+      "total_hours": 3.0,
+      "hours_by_year": {
+        "1": 3.0
+      },
+      "base_rate": 160.0,
+      "amount": 480.0,
+      "flat_amount": 480.0,
+      "basis": "3 h",
+      "rationale": "Roofing takeoff & pricing: membrane roof replacement at both bridges with flashing and tapered pitch to scuppers; metal roof clean/sealant; rain leaders"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6.0,
+      "quantity": 1.0,
+      "total_hours": 6.0,
+      "hours_by_year": {
+        "1": 6.0
+      },
+      "base_rate": 190.0,
+      "amount": 1140.0,
+      "flat_amount": 1140.0,
+      "basis": "6 h",
+      "rationale": "Pricing: masonry restoration unit rates at CT prevailing wage, concrete/handrail/painting items, scaffolding & access, general conditions, GC markups"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3.0,
+      "quantity": 1.0,
+      "total_hours": 3.0,
+      "hours_by_year": {
+        "1": 3.0
+      },
+      "base_rate": 160.0,
+      "amount": 480.0,
+      "flat_amount": 480.0,
+      "basis": "3 h",
+      "rationale": "Pricing: masonry restoration unit rates at CT prevailing wage, concrete/handrail/painting items, scaffolding & access, general conditions, GC markups"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3.0,
+      "quantity": 1.0,
+      "total_hours": 3.0,
+      "hours_by_year": {
+        "1": 3.0
+      },
+      "base_rate": 190.0,
+      "amount": 570.0,
+      "flat_amount": 570.0,
+      "basis": "3 h",
+      "rationale": "Estimate assembly: basis-of-estimate narrative, unforeseen-conditions allowance, contingency, escalation; recommended items as identified lines"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 160.0,
+      "amount": 320.0,
+      "flat_amount": 320.0,
+      "basis": "2 h",
+      "rationale": "Estimate assembly: basis-of-estimate narrative, unforeseen-conditions allowance, contingency, escalation; recommended items as identified lines"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 250.0,
+      "amount": 500.0,
+      "flat_amount": 500.0,
+      "basis": "2 h",
+      "rationale": "Director QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "DR",
+      "role_title": "Director",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 1.0,
+      "quantity": 1.0,
+      "total_hours": 1.0,
+      "hours_by_year": {
+        "1": 1.0
+      },
+      "base_rate": 250.0,
+      "amount": 250.0,
+      "flat_amount": 250.0,
+      "basis": "1 h",
+      "rationale": "Review call with architect; incorporate comments; final issue"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2.0,
+      "quantity": 1.0,
+      "total_hours": 2.0,
+      "hours_by_year": {
+        "1": 2.0
+      },
+      "base_rate": 190.0,
+      "amount": 380.0,
+      "flat_amount": 380.0,
+      "basis": "2 h",
+      "rationale": "Review call with architect; incorporate comments; final issue"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 1.0,
+      "quantity": 1.0,
+      "total_hours": 1.0,
+      "hours_by_year": {
+        "1": 1.0
+      },
+      "base_rate": 160.0,
+      "amount": 160.0,
+      "flat_amount": 160.0,
+      "basis": "1 h",
+      "rationale": "Review call with architect; incorporate comments; final issue"
+    },
+    {
+      "deliverable_id": "site-visit",
+      "deliverable": "Optional Site Visit — Storrs, CT",
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 8.0,
+      "quantity": 1.0,
+      "total_hours": 8.0,
+      "hours_by_year": {
+        "1": 8.0
+      },
+      "base_rate": 190.0,
+      "amount": 1520.0,
+      "flat_amount": 1520.0,
+      "basis": "8 h",
+      "rationale": "Site visit to Storrs, CT: field verification of repair extents and access conditions, incl. travel"
+    }
+  ],
+  "hours_by_role": {
+    "SC": 26.0,
+    "CM": 21.0,
+    "DR": 3.0
+  },
+  "fee_by_role": {
+    "SC": 4940.0,
+    "CM": 3360.0,
+    "DR": 750.0
+  },
+  "fee_by_phase": {
+    "Estimate Period": 9050.0
+  },
+  "fee_by_year": {
+    "1": 9050.0
+  },
+  "fee_by_deliverable": {
+    "CD-Level Cost Estimate — Connector Walkway & Chimney Repairs": 7530.0,
+    "Optional Site Visit — Storrs, CT": 1520.0
+  },
+  "subtotal": 9050.0,
+  "contingency_pct": 0.0,
+  "contingency_amount": 0.0,
+  "rounding_adjustment": 0.0,
+  "total_fee": 9050.0,
+  "flat_rate_subtotal": 9050.0,
+  "escalation_capture": 0.0,
+  "fee_pct_of_construction": null,
+  "margins": [
+    {
+      "role_code": "CM",
+      "role_title": "Cost Manager",
+      "revenue": 3360.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    },
+    {
+      "role_code": "DR",
+      "role_title": "Director",
+      "revenue": 750.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    },
+    {
+      "role_code": "SC",
+      "role_title": "Senior Cost Manager",
+      "revenue": 4940.0,
+      "cost": null,
+      "margin_pct": null,
+      "below_floor": false
+    }
+  ],
+  "warnings": [],
+  "lock": {
+    "lock_id": "a9a64e82bcc4",
+    "total_fee": 9050.0,
+    "locked_at": "2026-10-19T20:11:17+00:00"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "facts": {
+    "project_name": "UCONN Holcomb & Whitney Residence Halls \u2014 Connector Walkway Repairs",
+    "client_name": "Joseph Sepot Architects",
+    "project_type": "cost_estimating",
+    "sector": "higher education / residence halls",
+    "construction_value": null,
+    "duration_months": 1,
+    "duration_basis": "assumed",
+    "delivery_method": null,
+    "location": "Storrs, CT",
+    "phases": [
+      {
+        "name": "Estimate Period",
+        "start_month": 1,
+        "duration_months": 1
+      }
+    ],
+    "notes": "CD-level estimate from a 6-sheet CD Review set (09/21/26); masonry repair and roof replacement at two one-story brick connector bridges plus two chimneys. State of Connecticut project (UCONN)."
+  },
+  "deliverables": [
+    {
+      "id": "cd-estimate",
+      "name": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "description": "Trade-based CD-level construction cost estimate from the CD Review set and photographs: masonry restoration, roofing replacement, recommended concrete/handrail/painting items, access and general conditions at CT prevailing wage; draft issue with basis of estimate, one review call, one comment round, final issue.",
+      "cadence": "once",
+      "phase": "Estimate Period",
+      "source_language": "Please provide a cost estimate proposal for the attached project"
+    },
+    {
+      "id": "site-visit",
+      "name": "Optional Site Visit \u2014 Storrs, CT",
+      "description": "One site visit to Storrs, CT to field-verify repair extents and access conditions, offered as an optional add-alternate.",
+      "cadence": "once",
+      "phase": "Estimate Period",
+      "source_language": "I can also provide you with photos"
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Documents",
+      "question": "No specifications accompany the CD Review set; repair methods and materials are keynoted only.",
+      "why_it_matters": "Unit rates for restoration work depend on method (e.g., cutting depth, mortar type, cap material).",
+      "proposed_assumption": "The estimate is based on the six-sheet CD Review set dated 09/21/26 (CS101, A101, A102, A201, A202, A203) and photographs to be provided by the architect; repair methods and materials are priced per the keynotes and industry-standard practice for matching existing construction.",
+      "pricing_basis": "6-sheet CD Review set plus architect-provided photographs; no specifications"
+    },
+    {
+      "topic": "Repair quantities",
+      "question": "Most repair areas (repointing, spalling, cracks) are keynoted by location but not dimensioned.",
+      "why_it_matters": "Masonry repair quantity is the estimate; it is condition-dependent.",
+      "proposed_assumption": "Quantities are measured from the 1/4-inch plans and elevations where dimensioned and otherwise quantified from the keynote extents and photographs; unit rates (per SF of repointing, per brick, per LF of cap) are shown so the Owner can adjust quantities if field conditions differ.",
+      "pricing_basis": "Measured quantities with visible unit rates; keynoted extents where undimensioned"
+    },
+    {
+      "topic": "Unforeseen conditions",
+      "question": "Hidden deterioration behind caps, flashing, and at the chimneys cannot be seen until work starts.",
+      "why_it_matters": "Restoration projects routinely grow once masonry is opened.",
+      "proposed_assumption": "A separately identified unforeseen-conditions allowance is carried on the masonry and roofing scope in addition to design contingency.",
+      "pricing_basis": "Identified unforeseen-conditions allowance plus design contingency"
+    },
+    {
+      "topic": "Prevailing wage",
+      "question": "The work is for the University of Connecticut, a State of Connecticut agency.",
+      "why_it_matters": "Prevailing wage materially raises labor-intensive restoration rates.",
+      "proposed_assumption": "All trades are priced at Connecticut prevailing wage rates for the Storrs locality.",
+      "pricing_basis": "CT prevailing wage labor rates"
+    },
+    {
+      "topic": "Access and staging",
+      "question": "Scaffolding, lift, and roof-access requirements at the bridges and the Whitney Hall chimneys (slate roof) are not shown.",
+      "why_it_matters": "Access can equal the repair cost on small masonry jobs.",
+      "proposed_assumption": "Pipe scaffolding or lifts at both bridges and roof-level staging with slate protection at both chimneys are carried in general conditions; no interior building access is assumed.",
+      "pricing_basis": "Scaffolding/lift and chimney staging allowance in general conditions"
+    },
+    {
+      "topic": "Occupied campus and schedule",
+      "question": "Construction timing relative to the academic calendar is not stated.",
+      "why_it_matters": "Occupied residence halls can force off-hours or summer-only work.",
+      "proposed_assumption": "Work is assumed during a campus break or coordinated with Residential Life during normal hours; no premium time is carried unless directed.",
+      "pricing_basis": "Normal working hours; no premium time"
+    },
+    {
+      "topic": "Recommended items",
+      "question": "Several keynotes are marked 'recommend' (handrail post replacement to current code, step and sidewalk repairs, door trim painting).",
+      "why_it_matters": "The Owner may elect to include or exclude them.",
+      "proposed_assumption": "Recommended items are priced as separately identified lines so they can be added to or removed from the base scope.",
+      "pricing_basis": "Recommended items as identified lines"
+    },
+    {
+      "topic": "Roofing system",
+      "question": "The replacement roof membrane system and insulation are not specified.",
+      "why_it_matters": "Single-ply versus modified bitumen and tapered insulation change the roofing cost materially.",
+      "proposed_assumption": "A fully adhered single-ply or modified bitumen membrane on tapered insulation to achieve pitch to the existing scuppers, with new flashing and counterflashing at the parapets, is assumed; the system will be confirmed with the architect at kickoff.",
+      "pricing_basis": "Membrane on tapered insulation with new flashing; system to be confirmed"
+    },
+    {
+      "topic": "Hazardous materials",
+      "question": "No hazardous materials survey was provided for the existing roofing, flashing, and sealants.",
+      "why_it_matters": "Asbestos-containing roofing or caulk changes demolition cost.",
+      "proposed_assumption": "An abatement allowance is carried as a separately identified line; survey and abatement design are excluded.",
+      "pricing_basis": "Identified abatement allowance only"
+    },
+    {
+      "topic": "Site visit",
+      "question": "The architect has offered photographs; a site visit was not requested.",
+      "why_it_matters": "Field verification tightens condition-dependent quantities but adds travel.",
+      "proposed_assumption": "The base fee is prepared from the drawings and photographs; one site visit to Storrs is offered as an optional add-alternate, priced separately, with mileage billed at cost.",
+      "pricing_basis": "Base from drawings and photos; site visit optional"
+    },
+    {
+      "topic": "Review and revisions",
+      "question": "The number of review and revision rounds is not stated.",
+      "why_it_matters": "Re-pricing a revised set is additional effort.",
+      "proposed_assumption": "One review call with the architect and one consolidated round of comments are included in the final issue; re-pricing of revised or permit-set drawings will be billed at the hourly rates herein.",
+      "pricing_basis": "One review call and one revision cycle"
+    },
+    {
+      "topic": "Estimate basis and markups",
+      "question": "Construction start, GC procurement, and soft-cost scope are not stated.",
+      "why_it_matters": "The summary must separate construction cost from Owner costs.",
+      "proposed_assumption": "The estimate is in current dollars with escalation to an assumed construction midpoint approximately nine months out shown separately; general conditions, contractor overhead and profit, bonds and insurance, and contingency are shown as separate identified lines; soft costs, design fees, permits, and Owner costs are excluded.",
+      "pricing_basis": "Hard construction cost; markups and escalation as identified lines"
+    }
+  ],
+  "exclusions_suggested": [
+    "Reconciliation with a Construction Manager or bidder (available as an additional service)",
+    "Estimating lengthy or significant design revisions after receipt of documents and notice to proceed",
+    "Hazardous materials survey and abatement design",
+    "Structural investigation of the bridge arches, parapets, or chimneys",
+    "Soft costs, design fees, permits, testing, and Owner costs",
+    "Life cycle cost analysis / OPEX costing",
+    "Value engineering studies",
+    "Bid-phase services, including bid leveling and addenda pricing (available as an additional service)",
+    "Additional estimates or milestones beyond those listed (e.g., re-pricing of the permit or bid set)",
+    "Reimbursables, including mileage for the optional site visit (billed at cost with no markup, if incurred)"
+  ]
+}

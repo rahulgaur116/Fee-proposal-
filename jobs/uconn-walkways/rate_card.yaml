@@ -1,0 +1,38 @@
+# Cost Management hourly rates 2026 (per published rate schedule in the
+# sample proposal). No loaded cost rates available, so margin checks are
+# skipped. Escalation per standard terms: greater of CPI-W or 5% annually
+# (no effect within this single-year engagement).
+firm: Cumming Group
+effective_date: "2026-01-01"
+currency: USD
+
+escalation:
+  annual_pct: 5.0
+
+roles:
+  - code: VP
+    title: Vice President
+    bill_rate: 350
+  - code: SDR
+    title: Senior Director
+    bill_rate: 300
+  - code: DR
+    title: Director
+    bill_rate: 250
+  - code: AD
+    title: Associate Director
+    bill_rate: 225
+  - code: SC
+    title: Senior Cost Manager
+    bill_rate: 190
+  - code: CM
+    title: Cost Manager
+    bill_rate: 160   # per Fee_Buildup_Central_Synagogue (published 2026 schedule says 150 - confirm)
+  - code: ACM
+    title: Assistant Cost Manager / Estimating Technician
+    bill_rate: 110
+
+policies:
+  margin_floor_pct: 0      # no cost rates available - margin checks off
+  contingency_pct: 0       # services fee, no estimating contingency
+  rounding: 0        # client-approved buildup total is exact; do not round

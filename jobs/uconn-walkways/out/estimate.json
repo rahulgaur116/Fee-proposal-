@@ -1,0 +1,155 @@
+{
+  "lines": [
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Kickoff; review 6-sheet CD Review set and photographs; clarification/RFI list to architect"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Kickoff; review 6-sheet CD Review set and photographs; clarification/RFI list to architect"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 10,
+      "quantity": null,
+      "rationale": "Masonry takeoff: repointing (bridges, arches, caps, chimneys), brick replacement, stone cap replace/repoint, spall & crack repair, cleaning, sealants, plaques"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Masonry takeoff: repointing (bridges, arches, caps, chimneys), brick replacement, stone cap replace/repoint, spall & crack repair, cleaning, sealants, plaques"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Roofing takeoff & pricing: membrane roof replacement at both bridges with flashing and tapered pitch to scuppers; metal roof clean/sealant; rain leaders"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Roofing takeoff & pricing: membrane roof replacement at both bridges with flashing and tapered pitch to scuppers; metal roof clean/sealant; rain leaders"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 6,
+      "quantity": null,
+      "rationale": "Pricing: masonry restoration unit rates at CT prevailing wage, concrete/handrail/painting items, scaffolding & access, general conditions, GC markups"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Pricing: masonry restoration unit rates at CT prevailing wage, concrete/handrail/painting items, scaffolding & access, general conditions, GC markups"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 3,
+      "quantity": null,
+      "rationale": "Estimate assembly: basis-of-estimate narrative, unforeseen-conditions allowance, contingency, escalation; recommended items as identified lines"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Estimate assembly: basis-of-estimate narrative, unforeseen-conditions allowance, contingency, escalation; recommended items as identified lines"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Director QA review of draft estimate"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "DR",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 1,
+      "quantity": null,
+      "rationale": "Review call with architect; incorporate comments; final issue"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 2,
+      "quantity": null,
+      "rationale": "Review call with architect; incorporate comments; final issue"
+    },
+    {
+      "deliverable_id": "cd-estimate",
+      "deliverable": "CD-Level Cost Estimate \u2014 Connector Walkway & Chimney Repairs",
+      "role_code": "CM",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 1,
+      "quantity": null,
+      "rationale": "Review call with architect; incorporate comments; final issue"
+    },
+    {
+      "deliverable_id": "site-visit",
+      "deliverable": "Optional Site Visit \u2014 Storrs, CT",
+      "role_code": "SC",
+      "phase": "Estimate Period",
+      "cadence": "once",
+      "hours_each": 8,
+      "quantity": null,
+      "rationale": "Site visit to Storrs, CT: field verification of repair extents and access conditions, incl. travel"
+    }
+  ],
+  "staffing_notes": "Small CD-level masonry/roofing repair estimate. CM carries takeoff, SC pricing and assembly, DR QA. Site visit priced as a separate optional deliverable."
+}
